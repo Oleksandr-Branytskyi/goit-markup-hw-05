@@ -483,8 +483,58 @@
               </a>
             </li>
           </ul>
+          <form 
+            name="subscribe_form"
+          >
+            <input
+              class="footer-form-input-email"
+              placeholder="E-mail"
+              type="email"
+              name="subscribe_email"
+            >
+            <button 
+              type="submit" 
+              class="hero-btn"
+            >
+              Subscribe
+            </button>
         </div>
       </div>
     </footer>
+    <!-- MODAL -->
+    <div class="modal-overlay is-hidden">
+      <div class="modal">
+        <button class="modal-close"></button>
+        <h3 class="modal-subtitle">
+          Leave your contacts and we will call you back
+        </h3>
+        <form class="form-inputs">
+          <label for="form-username">Name</label>
+          <div>
+            <input type="text" name="form_username" id="form-username" />
+          </div>
+          <label for="form-userphone">Phone</label>
+          <div>
+            <input type="tel" name="form_username" id="form-userphone" />
+          </div>
+          <label for="form-useremail">Email</label>
+          <div>
+            <input type="email" name="form_username" id="form-useremail" />
+          </div>
+          <label for="form-usercomment">Comment</label>
+          <div>
+            <textarea name="form_user" id="form-usercomment"></textarea>
+          </div>
+          <div>
+            <input type="checkbox" name="form_privacy" id="form-userprivacy" />
+            <label for="form-userprivacy"
+              >I accept the terms and conditions of the
+              <a href="#">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit" class="hero-btn">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
