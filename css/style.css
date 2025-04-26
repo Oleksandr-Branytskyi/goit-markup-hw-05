@@ -36,6 +36,8 @@ img {
 }
 :root {
   --navy-blue-color: #2e2f42;
+  --checked-bg-color: #404bbf;
+  --checked-icon-color: #f4f4fd;
 }
 
 /* HEADER */
@@ -700,7 +702,7 @@ footer-socials {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--navy-blue), #2e2f42;
+  color: #2e2f42;
   margin-bottom: 16px;
 }
 
@@ -708,11 +710,10 @@ footer-socials {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 8px;
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -793,10 +794,10 @@ footer-socials {
   border: 0;
 }
 
-.visually-hidden:checked + .modal-checkbox-label .modal-custom-checkbox {
-  background-color: #404bbf;
+.visually-hidden:checked + .modal-privacy-label .modal-custom-checkbox {
+  background-color: var(--checked-bg-color, #404bbf);
   border: none;
-  fill: #f4f4fd;
+  fill: var(--checked-icon-color, #f4f4fd);
 }
 
 .modal-custom-checkbox {
