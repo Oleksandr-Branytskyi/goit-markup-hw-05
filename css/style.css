@@ -708,6 +708,7 @@ footer-socials {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 8px;
 }
 
 .modal-field {
@@ -793,9 +794,9 @@ footer-socials {
 }
 
 .visually-hidden:checked + .modal-checkbox-label .modal-custom-checkbox {
-  background-color: var(--checkbox-checked-bg, #404bbf);
+  background-color: #404bbf;
   border: none;
-  fill: var(--checkbox-icon-fill, #f4f4fd);
+  fill: #f4f4fd;
 }
 
 .modal-custom-checkbox {
@@ -818,14 +819,14 @@ footer-socials {
 }
 
 .modal-privacy-link {
-  color: var(--accent-color, #4d5ae5);
+  color: #4d5ae5;
 }
 
 .modal-privacy-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--grey, #8e8f99);
+  color: #8e8f99;
 }
 
 .modal-submit-btn {
