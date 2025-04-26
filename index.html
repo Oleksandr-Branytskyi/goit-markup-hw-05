@@ -483,21 +483,26 @@
               </a>
             </li>
           </ul>
-          <form 
-            name="subscribe_form"
-          >
-            <input
-              class="footer-form-input-email"
-              placeholder="E-mail"
-              type="email"
-              name="subscribe_email"
-            >
-            <button 
-              type="submit" 
-              class="hero-btn"
-            >
+        </div>
+
+        <div class="footer-subscribe">
+          <p class="subscribe-title">Subscribe</p>
+          <form class="subscribe-form" name="subscribe_form">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="subscribe-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-button" type="submit">
               Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
             </button>
+          </form>
         </div>
       </div>
     </footer>
