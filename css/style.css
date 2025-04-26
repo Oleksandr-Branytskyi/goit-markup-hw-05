@@ -709,7 +709,6 @@ footer-socials {
 
 .modal-field {
   margin-bottom: 8px;
-  margin-bottom: 16px;
 }
 
 .modal-label {
@@ -725,8 +724,7 @@ footer-socials {
   position: relative;
 }
 
-.modal-input,
-.modal-textarea {
+.modal-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
